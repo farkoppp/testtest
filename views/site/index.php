@@ -2,7 +2,7 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'Мои заказы';
 ?>
 <div class="site-index">
 
@@ -15,7 +15,9 @@ $this->title = 'My Yii Application';
     </div>
 
     <div class="body-content">
-
+<?php
+echo date("H:i:s");
+?>
         <div class="row">
             <div class="col-lg-4">
                 <h2>Heading</h2>
